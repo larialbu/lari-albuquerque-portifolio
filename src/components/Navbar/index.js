@@ -37,20 +37,20 @@ const Navbar = () => {
           <MobileMenu isOpen={isOpen}>
             <MobileLink href="#about" onClick={() => {
               setIsOpen(!isOpen)
-            }}>About</MobileLink>
-            <MobileLink href='#skills' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Skills</MobileLink>
-            <MobileLink href='#experience' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Experience</MobileLink>
-            <MobileLink href='#projects' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Projects</MobileLink>
+            }}>Sobre</MobileLink>
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Education</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            }}>Educação</MobileLink>
+            <MobileLink href='#skills' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Habilidades</MobileLink>
+            <MobileLink href='#experience' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Experiência</MobileLink>
+            <MobileLink href='#projects' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Projetos</MobileLink>
+            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Perfil do Github</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>
