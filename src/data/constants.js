@@ -6,7 +6,7 @@ export const Bio = {
     "Programadora",
   ],
   description:
-    "Olá Me chamo Larissa, tenho 19 anos, sou de Pernambuco especificamente na capital. Depois de concluir o ensino médio acabei descobrindo o mundo da programação e me fascinei pela área, estou cursando o último período em Sistemas para internet na Universidade Católica de Pernambuco, Hoje atuo na área de Desenvolvimento e UX design. Gosto de trabalhar em equipe e ajudar as pessoas, busco aprimorar minhas habilidades através da análise e operação nas relações entre o cliente e a organização.",
+    "Tenho 19 anos, sou de Pernambuco especificamente na capital. Depois de concluir o ensino médio acabei descobrindo o mundo da programação e me fascinei pela área, estou cursando o último período em Sistemas para internet na Universidade Católica de Pernambuco, Hoje atuo na área de Desenvolvimento e UX design. Gosto de trabalhar em equipe e ajudar as pessoas, busco aprimorar minhas habilidades a cada dia.",
   github: "https://github.com/larialbu",
   resume:"https://www.canva.com/design/DAF3imC90jE/ShsmJ52qZtcuDcRaYV4m0g/view?utm_content=DAF3imC90jE&utm_campaign=designshare&utm_medium=link&utm_source=editor",
   linkedin: "https://www.linkedin.com/in/larissa-albuquerque-39133a239/",
@@ -259,6 +259,130 @@ export const education = [
     desc: "De forma orgânica e sistêmica, oferecer uma formação integral de modo a formar profissionais capazes de projetar, analisar, e desenvolver soluções computacionais focadas na plataforma web, atreladas a uma boa visão estratégica de qualidade de software e com direção empreendedora de modelo de negócios, para atender e suprir demandas da sociedade e do mundo do trabalho.",
     degree: "Curso Superior de Tecnologia (CST), Sistemas para Internet"
   },
+];
+
+export const certificates = [
+  {
+    id: 1,
+    category: "all",
+    title: "React com Typescript: desenvolva um sistema de cadastro e autenticação",
+    img: "https://media.licdn.com/dms/image/D4D0BAQFN-Q_zISNK9w/company-logo_100_100/0/1704387182393/aluracursos_logo?e=1717027200&v=beta&t=AyJX-NIw9pSxVI_tDsmWQEVe9UUO40RRRz6O_d0M-YI",
+    certificateUrl: "https://cursos.alura.com.br/certificate/f492cb11-0e79-4203-867b-4d4557da98c0" 
+  },
+  {
+    id: 2 ,
+    category: "all",
+    title: "React com Typescript: desenvolvendo uma área administrativa",
+    img: "https://media.licdn.com/dms/image/D4D0BAQFN-Q_zISNK9w/company-logo_100_100/0/1704387182393/aluracursos_logo?e=1717027200&v=beta&t=AyJX-NIw9pSxVI_tDsmWQEVe9UUO40RRRz6O_d0M-YI",
+    certificateUrl: "https://cursos.alura.com.br/certificate/521340c1-8fdc-4bf1-9cde-a6b1f915d739" 
+  },
+  {
+    id: 3 ,
+    category: "all",
+    title: "REST API's RESTFul do 0 à Azure com ASP.NET Core 5 e Docker",
+    img: "https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1630536914848/udemy_logo?e=1717027200&v=beta&t=u1D28207Nouf7dbkOmUx0ae8aWb1nfbVB7ogjrRuaVU",
+    certificateUrl: "" 
+  },
+  {
+    id: 4 ,
+    category: "all",
+    title: "React: obtendo dados com React Query",
+    img: "https://media.licdn.com/dms/image/D4D0BAQFN-Q_zISNK9w/company-logo_100_100/0/1704387182393/aluracursos_logo?e=1717027200&v=beta&t=AyJX-NIw9pSxVI_tDsmWQEVe9UUO40RRRz6O_d0M-YI",
+    certificateUrl: "https://cursos.alura.com.br/certificate/b94c5bde-a0c4-4447-bfe9-3409e6008fd0" 
+  },
+  {
+    id: 5 ,
+    category: "all",
+    title: "JavaScript: manipulando elementos no DOM",
+    img: "https://media.licdn.com/dms/image/D4D0BAQFN-Q_zISNK9w/company-logo_100_100/0/1704387182393/aluracursos_logo?e=1717027200&v=beta&t=AyJX-NIw9pSxVI_tDsmWQEVe9UUO40RRRz6O_d0M-YI",
+    certificateUrl: "https://cursos.alura.com.br/certificate/e10ccde4-dac6-41a3-a546-488ed7956806" 
+  },
+  {
+    id: 6 ,
+    category: "all",
+    title: "Curso React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!",
+    img: "https://media.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1630536914848/udemy_logo?e=1717027200&v=beta&t=u1D28207Nouf7dbkOmUx0ae8aWb1nfbVB7ogjrRuaVU",
+    certificateUrl: "" 
+  },
+ 
+  {
+    id: 10 ,
+    category: "all",
+    title: "Machine Learning",
+    img: "https://media.licdn.com/dms/image/D4D0BAQEi8onbSuBUXA/company-logo_100_100/0/1704197677607/centrouniversitariosenac_logo?e=1717027200&v=beta&t=wnSHaJb5QWXoHMgrl8-dr8DbzIaax-QsNbNiWegOmvI",
+    certificateUrl: "" 
+  },
+  {
+    id: 11 ,
+    category: "all",
+    title: "Criar wireframes e protótipos de baixa fidelidade",
+    img: "https://media.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1631311446380?e=1717027200&v=beta&t=31eYf2KVRR-akJWh_FPhkxvR31fQjx_krbtjpEMI6dg",
+    certificateUrl: "https://www.coursera.org/account/accomplishments/verify/YKQSGJ58BSTP" 
+  },
+  {
+    id: 12 ,
+    category: "all",
+    title: "Fundamentos de design da experiência do usuário (UX)",
+    img: "https://media.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1631311446380?e=1717027200&v=beta&t=31eYf2KVRR-akJWh_FPhkxvR31fQjx_krbtjpEMI6dg",
+    certificateUrl: "https://coursera.org/share/97d4d92a19e5e2c63b42ff6306262c26" 
+  },
+  {
+    id: 13 ,
+    category: "all",
+    title: "Iniciar o processo de design de UX: criar empatia, definir e idealizar",
+    img: "https://media.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_100_100/0/1631311446380?e=1717027200&v=beta&t=31eYf2KVRR-akJWh_FPhkxvR31fQjx_krbtjpEMI6dg",
+    certificateUrl: "https://coursera.org/share/a90b07384cf051c536828daa15b069f1" 
+  },
+  {
+    id: 7 ,
+    category: "all",
+    title: "Certificado de Palestrante- Semana C3 - Introdução ao Design ux/ui",
+    img: "https://media.licdn.com/dms/image/C4D0BAQGarU1rRRALqw/company-logo_100_100/0/1672526090292?e=1717027200&v=beta&t=yX4nttvRM7ZM_4FU_mmrZsuDjVSQ2K6eK63DueaRye8",
+    certificateUrl: "https://www.even3.com.br/documentos/imprimir?i=1164445.88610435.028018.8.531116773501860270577&cc=5d1e3547-8129-4ce5-8c4c-de05ebe90615" 
+  },
+  {
+    id: 8 ,
+    category: "all",
+    title: "Palestrante - Mesa redonda: Mercado de trabalho",
+    img: "https://media.licdn.com/dms/image/C4D0BAQGarU1rRRALqw/company-logo_100_100/0/1672526090292?e=1717027200&v=beta&t=yX4nttvRM7ZM_4FU_mmrZsuDjVSQ2K6eK63DueaRye8",
+    certificateUrl: "https://www.even3.com.br/documentos/imprimir?i=1164445.88610435.028013.8.531116773501860270587&cc=5d1e3547-8129-4ce5-8c4c-de05ebe90615" 
+  },
+  {
+    id: 9 ,
+    category: "all",
+    title: "Oficina de LaTeX: Aprenda a criar documentos profissionais com qualidade tipográfica",
+    img: "https://media.licdn.com/dms/image/C4D0BAQGarU1rRRALqw/company-logo_100_100/0/1672526090292?e=1717027200&v=beta&t=yX4nttvRM7ZM_4FU_mmrZsuDjVSQ2K6eK63DueaRye8",
+    certificateUrl: "https://www.even3.com.br/documentos/imprimir?i=1164447.88610435.028259.8.531119773501860272647&cc=5d1e3547-8129-4ce5-8c4c-de05ebe90615" 
+  },
+  {
+    id: 14 ,
+    category: "all",
+    title: "Introdução à Amazon Web Services: Computação em Nuvem",
+    img: "https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_100_100/0/1638831590218/linkedin_logo?e=1717027200&v=beta&t=yjkvfR9Z2Mh2HJ2oKUHEUA0qlWqT373x1kqubgoxBbQ",
+    certificateUrl: "https://www.linkedin.com/learning/certificates/c9fbe5cd6ca0f9faaee366e8fd7a07886dbb6a13ddbd5c515f7d3a9a1d4e407f" 
+  },
+  {
+    id: 15 ,
+    category: "all",
+    title: "Introdução ao Git e ao GitHub",
+    img: "https://media.licdn.com/dms/image/D4D0BAQGVnRzLNvSenA/company-logo_100_100/0/1701787387170/dio_makethechange_logo?e=1717027200&v=beta&t=I5NqURtLYzp47SJAUJgEaEm03cT4DYREtfm9aXqkyQg",
+    certificateUrl: "" 
+  },
+  {
+    id: 16 ,
+    category: "all",
+    title: "undamentos de ti: Hardware e software",
+    img: "https://media.licdn.com/dms/image/C4E0BAQFOiaQvbDY3hQ/company-logo_100_100/0/1630591657622/fundacaobradesco_logo?e=1717027200&v=beta&t=_fJd0NjTSNPFeHKrF9TY5fi5Jz4qH-rYi-zs7ZTmGgw",
+    certificateUrl: "" 
+  },
+  /* {
+    id: 17 ,
+    category: "all",
+    title: "",
+    img: "",
+    certificateUrl: "" 
+  }, */
+  
 ];
 
 export const projects = [

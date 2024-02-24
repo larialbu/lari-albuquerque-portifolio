@@ -32,12 +32,6 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="back end" onClick={() => setToggle('back end')}>Back end</ToggleButton>
           }
-          {/* <Divider />
-          {toggle === 'outhers' ?
-            <ToggleButton active value="outhers" onClick={() => setToggle('outhers')}>Outros</ToggleButton>
-            :
-            <ToggleButton value="outhers" onClick={() => setToggle('outhers')}>Outros</ToggleButton>
-          } */}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
